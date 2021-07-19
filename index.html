@@ -40,16 +40,6 @@
     <main>
       <div class="container">
         <div class="row">
-          <div class="col-md-10 col-md-offset-1">
-            <div id="title">
-              <h1><b>글자수 세기</b></h1>
-              텍스트의 글자수 / 바이트(Byte)를 계산해 주는 사이트
-            </div>
-          </div>
-        </div>
-        
-        <hr/>
-        <div class="row">
           <div class="form-group">
             <label for="inputText" class="col-sm-1 control-label">Text</label>
             <div class="col-sm-10">
@@ -74,57 +64,8 @@
             </div>
           </div>
         </div>
-        
-        <div class="row">
-          <div class="col-md-10 col-md-offset-1">
-            <hr/>
-            <hr/>
-          </div>
-        </div>
-        
-        <div class="row">
-          <div class="col-md-10 col-md-offset-1">
-            <!-- 댓글 -->
-            <div id="disqus_thread"></div>
-            <script>
-            var disqus_config = function () {
-              this.page.url = "https://wepplication.github.io/tools/charCounter/";  // Replace PAGE_URL with your page's canonical URL variable
-              this.page.identifier = "/tools/charCounter/"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-				this.language = "ko";
-            };
-            (function() { // DON'T EDIT BELOW THIS LINE
-            var d = document, s = d.createElement('script');
-            s.src = 'https://wepplication.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-            })();
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-            <!-- /댓글 -->
-          </div>
-        </div>
       </div>
     </main>
-    
-    <footer w3-include-html="/tools/includes/footer.html"></footer>
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128075739-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'UA-128075739-1');
-    </script>
-    
-    <!-- Naver Analytics -->
-    <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
-    <script type="text/javascript">
-      if(!wcs_add) var wcs_add = {};
-      wcs_add["wa"] = "2b27e8a158b290";
-      wcs_do();
-    </script>
     
     <script src="/tools/js/include.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
